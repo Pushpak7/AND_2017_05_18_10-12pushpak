@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+     android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.pushpak.interactivitycommunication.MainActivity">
+
+    <TextView
+        android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+        android:paddingLeft="50dp"
+            android:text="Date:"/>
+
+    <ImageView
+        android:id="@+id/imagePhone"
+          android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="25dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_marginTop="20dp"
+        android:onClick="goNext"
+        />
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.pushpak.interactivitycommunication.NextActivity">
+
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATE:"
+        android:textSize="20sp"
+
+        />
+<ImageView
+    android:id="@+id/imageone"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="20dp"
+    android:src="@drawable/iphone"
+    android:onClick="onImageOne"
+    />
+
+
+    <ImageView
+        android:id="@+id/imagetwo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/samsung"
+        android:onClick="onImageTwo"
+        />
+
+    <ImageView
+        android:id="@+id/imagethree"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/oneplus"
+        android:onClick="onImageThree"
+        />
+
+    </LinearLayout>
